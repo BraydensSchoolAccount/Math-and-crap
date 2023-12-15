@@ -20,7 +20,7 @@ print(quad_discriminant)
 # Declaring the variables for the quadratic solution
 # This is the easiest way to compensate for the +- symbol
 quad_solution = (-quad_b_val - math.sqrt(quad_discriminant)) / 2j * quad_a_val
-quad_solution = (-quad_b_val + math.sqrt(quad_discriminant)) / 2j * quad_a_val
+quad_solution = (-quad_b_val + (math.sqrt(quad_discriminant)*1j)) / 2 * quad_a_val
 
 print(f"\nThe solution for the quadratic equation is {quad_solution}")
 
